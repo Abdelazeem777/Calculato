@@ -1,0 +1,106 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/abdelazeem/AndroidStudioProjects/Calculato/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /home/abdelazeem/AndroidStudioProjects/Calculato/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /home/abdelazeem/AndroidStudioProjects/Calculato/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /home/abdelazeem/AndroidStudioProjects/Calculato/app/src/main/AndroidManifest.xml:2:1-21:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/abdelazeem/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/4704f4f45efb6105513ffa6557d013c6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /home/abdelazeem/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/538b56a13e4024de6642a4e6fc37f4b1/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:gridlayout-v7:27.1.1] /home/abdelazeem/.gradle/caches/transforms-1/files-1.1/gridlayout-v7-27.1.1.aar/a9f08f0dad5001748024a5227420d999/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] /home/abdelazeem/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/a2e2a48e60826aac34eba72b0dd03c0c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/abdelazeem/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/1bbda4b54ee512d1500e1f9fb347b98c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/abdelazeem/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/523707d7418e6a8cd55366cab78145cb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/abdelazeem/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/2ea2eb7a2bd32077047c0ab9227a2b90/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/abdelazeem/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/9511b7916ae7d1a9ba17c6b6515d4c8d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /home/abdelazeem/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/79e6367a1da0a599ffbf3bae5e97ad1b/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/abdelazeem/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/fa223b22e16d9e41a35b0f3430b9dc3a/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/abdelazeem/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/432c470c22e612984319f5450e8f4c63/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/abdelazeem/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/613210df38f2707c3b9f948201843972/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /home/abdelazeem/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/43865b7332cf876aafff806a03e56b31/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/abdelazeem/AndroidStudioProjects/Calculato/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /home/abdelazeem/AndroidStudioProjects/Calculato/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /home/abdelazeem/AndroidStudioProjects/Calculato/app/src/main/AndroidManifest.xml:2:1-21:12
+	package
+		ADDED from /home/abdelazeem/AndroidStudioProjects/Calculato/app/src/main/AndroidManifest.xml:3:5-32
+		INJECTED from /home/abdelazeem/AndroidStudioProjects/Calculato/app/src/main/AndroidManifest.xml
+		INJECTED from /home/abdelazeem/AndroidStudioProjects/Calculato/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/abdelazeem/AndroidStudioProjects/Calculato/app/src/main/AndroidManifest.xml
+		ADDED from /home/abdelazeem/AndroidStudioProjects/Calculato/app/src/main/AndroidManifest.xml:2:1-21:12
+		INJECTED from /home/abdelazeem/AndroidStudioProjects/Calculato/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/abdelazeem/AndroidStudioProjects/Calculato/app/src/main/AndroidManifest.xml
+		ADDED from /home/abdelazeem/AndroidStudioProjects/Calculato/app/src/main/AndroidManifest.xml:2:1-21:12
+		INJECTED from /home/abdelazeem/AndroidStudioProjects/Calculato/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/abdelazeem/AndroidStudioProjects/Calculato/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /home/abdelazeem/AndroidStudioProjects/Calculato/app/src/main/AndroidManifest.xml:5:5-19:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /home/abdelazeem/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/538b56a13e4024de6642a4e6fc37f4b1/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /home/abdelazeem/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/538b56a13e4024de6642a4e6fc37f4b1/AndroidManifest.xml:9:5-20
+	android:supportsRtl
+		ADDED from /home/abdelazeem/AndroidStudioProjects/Calculato/app/src/main/AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from /home/abdelazeem/AndroidStudioProjects/Calculato/app/src/main/AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from /home/abdelazeem/AndroidStudioProjects/Calculato/app/src/main/AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from /home/abdelazeem/AndroidStudioProjects/Calculato/app/src/main/AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from /home/abdelazeem/AndroidStudioProjects/Calculato/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /home/abdelazeem/AndroidStudioProjects/Calculato/app/src/main/AndroidManifest.xml:11:9-40
+activity#com.ahk.calculato.MainActivity
+ADDED from /home/abdelazeem/AndroidStudioProjects/Calculato/app/src/main/AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from /home/abdelazeem/AndroidStudioProjects/Calculato/app/src/main/AndroidManifest.xml:12:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/abdelazeem/AndroidStudioProjects/Calculato/app/src/main/AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from /home/abdelazeem/AndroidStudioProjects/Calculato/app/src/main/AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from /home/abdelazeem/AndroidStudioProjects/Calculato/app/src/main/AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/abdelazeem/AndroidStudioProjects/Calculato/app/src/main/AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from /home/abdelazeem/AndroidStudioProjects/Calculato/app/src/main/AndroidManifest.xml:16:27-74
+uses-sdk
+INJECTED from /home/abdelazeem/AndroidStudioProjects/Calculato/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/abdelazeem/AndroidStudioProjects/Calculato/app/src/main/AndroidManifest.xml
+INJECTED from /home/abdelazeem/AndroidStudioProjects/Calculato/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/abdelazeem/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/4704f4f45efb6105513ffa6557d013c6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/abdelazeem/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/4704f4f45efb6105513ffa6557d013c6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /home/abdelazeem/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/538b56a13e4024de6642a4e6fc37f4b1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /home/abdelazeem/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/538b56a13e4024de6642a4e6fc37f4b1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:gridlayout-v7:27.1.1] /home/abdelazeem/.gradle/caches/transforms-1/files-1.1/gridlayout-v7-27.1.1.aar/a9f08f0dad5001748024a5227420d999/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:gridlayout-v7:27.1.1] /home/abdelazeem/.gradle/caches/transforms-1/files-1.1/gridlayout-v7-27.1.1.aar/a9f08f0dad5001748024a5227420d999/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /home/abdelazeem/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/a2e2a48e60826aac34eba72b0dd03c0c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /home/abdelazeem/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/a2e2a48e60826aac34eba72b0dd03c0c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/abdelazeem/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/1bbda4b54ee512d1500e1f9fb347b98c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/abdelazeem/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/1bbda4b54ee512d1500e1f9fb347b98c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/abdelazeem/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/523707d7418e6a8cd55366cab78145cb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/abdelazeem/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/523707d7418e6a8cd55366cab78145cb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/abdelazeem/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/2ea2eb7a2bd32077047c0ab9227a2b90/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/abdelazeem/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/2ea2eb7a2bd32077047c0ab9227a2b90/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/abdelazeem/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/9511b7916ae7d1a9ba17c6b6515d4c8d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/abdelazeem/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/9511b7916ae7d1a9ba17c6b6515d4c8d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /home/abdelazeem/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/79e6367a1da0a599ffbf3bae5e97ad1b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /home/abdelazeem/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/79e6367a1da0a599ffbf3bae5e97ad1b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/abdelazeem/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/fa223b22e16d9e41a35b0f3430b9dc3a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/abdelazeem/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/fa223b22e16d9e41a35b0f3430b9dc3a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/abdelazeem/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/432c470c22e612984319f5450e8f4c63/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/abdelazeem/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/432c470c22e612984319f5450e8f4c63/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/abdelazeem/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/613210df38f2707c3b9f948201843972/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/abdelazeem/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/613210df38f2707c3b9f948201843972/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /home/abdelazeem/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/43865b7332cf876aafff806a03e56b31/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /home/abdelazeem/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/43865b7332cf876aafff806a03e56b31/AndroidManifest.xml:20:5-44
+INJECTED from /home/abdelazeem/AndroidStudioProjects/Calculato/app/src/main/AndroidManifest.xml
+INJECTED from /home/abdelazeem/AndroidStudioProjects/Calculato/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/abdelazeem/AndroidStudioProjects/Calculato/app/src/main/AndroidManifest.xml
+		ADDED from /home/abdelazeem/AndroidStudioProjects/Calculato/app/src/main/AndroidManifest.xml
+		INJECTED from /home/abdelazeem/AndroidStudioProjects/Calculato/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/abdelazeem/AndroidStudioProjects/Calculato/app/src/main/AndroidManifest.xml
+		ADDED from /home/abdelazeem/AndroidStudioProjects/Calculato/app/src/main/AndroidManifest.xml
+		INJECTED from /home/abdelazeem/AndroidStudioProjects/Calculato/app/src/main/AndroidManifest.xml
