@@ -282,9 +282,17 @@ ArrayList<Character>operand;
             @Override
             public void onClick(View v) {
                 if(just_opened)
-                {return;}
+                {
+                    Toast.makeText(MainActivity.this, "Please, Type any number!! ", Toast.LENGTH_SHORT).show();
+                    return;
+                }
                 if(result_existed)
                 {return;}
+                if(result=="")
+                {
+                    Toast.makeText(MainActivity.this, "Please, Type the second number!!", Toast.LENGTH_SHORT).show();
+                    return;
+                }
                 numbers.add(Double.parseDouble(result));
                 if(operand.contains('/')) {
                     if (numbers.get(operand.indexOf('/') + 1)==0) {
