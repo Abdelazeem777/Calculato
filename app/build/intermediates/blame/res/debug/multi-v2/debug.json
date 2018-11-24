@@ -48,38 +48,6 @@
             ]
         },
         {
-            "outputFile": "/home/abdelazeem/AndroidStudioProjects/Calculato/app/build/intermediates/res/merged/debug/values-sr_values-sr.arsc.flat",
-            "map": [
-                {
-                    "source": "/home/abdelazeem/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/4704f4f45efb6105513ffa6557d013c6/res/values-sr/values-sr.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,214,317,423,509,613,731,812,892,980,1085,1193,1294,1398,1506,1607,1774,1871",
-                        "endColumns": "108,102,105,85,103,117,80,79,87,104,107,100,103,107,100,166,96,83",
-                        "endOffsets": "209,312,418,504,608,726,807,887,975,1080,1188,1289,1393,1501,1602,1769,1866,1950"
-                    }
-                },
-                {
-                    "source": "/home/abdelazeem/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/79e6367a1da0a599ffbf3bae5e97ad1b/res/values-sr/values-sr.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "1955",
-                        "endColumns": "100",
-                        "endOffsets": "2051"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "/home/abdelazeem/AndroidStudioProjects/Calculato/app/build/intermediates/res/merged/debug/values-si_values-si.arsc.flat",
             "map": [
                 {
@@ -107,6 +75,38 @@
                         "startOffsets": "1965",
                         "endColumns": "100",
                         "endOffsets": "2061"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/abdelazeem/AndroidStudioProjects/Calculato/app/build/intermediates/res/merged/debug/values-sr_values-sr.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/abdelazeem/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/4704f4f45efb6105513ffa6557d013c6/res/values-sr/values-sr.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,214,317,423,509,613,731,812,892,980,1085,1193,1294,1398,1506,1607,1774,1871",
+                        "endColumns": "108,102,105,85,103,117,80,79,87,104,107,100,103,107,100,166,96,83",
+                        "endOffsets": "209,312,418,504,608,726,807,887,975,1080,1188,1289,1393,1501,1602,1769,1866,1950"
+                    }
+                },
+                {
+                    "source": "/home/abdelazeem/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/79e6367a1da0a599ffbf3bae5e97ad1b/res/values-sr/values-sr.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "1955",
+                        "endColumns": "100",
+                        "endOffsets": "2051"
                     }
                 }
             ]
@@ -319,38 +319,6 @@
             ]
         },
         {
-            "outputFile": "/home/abdelazeem/AndroidStudioProjects/Calculato/app/build/intermediates/res/merged/debug/values-da_values-da.arsc.flat",
-            "map": [
-                {
-                    "source": "/home/abdelazeem/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/4704f4f45efb6105513ffa6557d013c6/res/values-da/values-da.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,208,307,419,502,602,715,792,869,948,1057,1165,1261,1375,1477,1578,1731,1828",
-                        "endColumns": "102,98,111,82,99,112,76,76,78,108,107,95,113,101,100,152,96,78",
-                        "endOffsets": "203,302,414,497,597,710,787,864,943,1052,1160,1256,1370,1472,1573,1726,1823,1902"
-                    }
-                },
-                {
-                    "source": "/home/abdelazeem/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/79e6367a1da0a599ffbf3bae5e97ad1b/res/values-da/values-da.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "1907",
-                        "endColumns": "100",
-                        "endOffsets": "2003"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "/home/abdelazeem/AndroidStudioProjects/Calculato/app/build/intermediates/res/merged/debug/values-te_values-te.arsc.flat",
             "map": [
                 {
@@ -378,6 +346,38 @@
                         "startOffsets": "105,219,328,439,529,634,759,841,923,1007,1120,1228,1327,1438,1540,1657,1823,1924",
                         "endColumns": "113,108,110,89,104,124,81,81,83,112,107,98,110,101,116,165,100,81",
                         "endOffsets": "214,323,434,524,629,754,836,918,1002,1115,1223,1322,1433,1535,1652,1818,1919,2001"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/abdelazeem/AndroidStudioProjects/Calculato/app/build/intermediates/res/merged/debug/values-da_values-da.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/abdelazeem/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/4704f4f45efb6105513ffa6557d013c6/res/values-da/values-da.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,208,307,419,502,602,715,792,869,948,1057,1165,1261,1375,1477,1578,1731,1828",
+                        "endColumns": "102,98,111,82,99,112,76,76,78,108,107,95,113,101,100,152,96,78",
+                        "endOffsets": "203,302,414,497,597,710,787,864,943,1052,1160,1256,1370,1472,1573,1726,1823,1902"
+                    }
+                },
+                {
+                    "source": "/home/abdelazeem/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/79e6367a1da0a599ffbf3bae5e97ad1b/res/values-da/values-da.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "1907",
+                        "endColumns": "100",
+                        "endOffsets": "2003"
                     }
                 }
             ]
@@ -590,38 +590,6 @@
             ]
         },
         {
-            "outputFile": "/home/abdelazeem/AndroidStudioProjects/Calculato/app/build/intermediates/res/merged/debug/values-en-rGB_values-en-rGB.arsc.flat",
-            "map": [
-                {
-                    "source": "/home/abdelazeem/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/4704f4f45efb6105513ffa6557d013c6/res/values-en-rGB/values-en-rGB.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,209,309,417,501,601,716,793,869,951,1054,1158,1257,1362,1465,1569,1725,1825",
-                        "endColumns": "103,99,107,83,99,114,76,75,81,102,103,98,104,102,103,155,99,81",
-                        "endOffsets": "204,304,412,496,596,711,788,864,946,1049,1153,1252,1357,1460,1564,1720,1820,1902"
-                    }
-                },
-                {
-                    "source": "/home/abdelazeem/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/79e6367a1da0a599ffbf3bae5e97ad1b/res/values-en-rGB/values-en-rGB.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "1907",
-                        "endColumns": "100",
-                        "endOffsets": "2003"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "/home/abdelazeem/AndroidStudioProjects/Calculato/app/build/intermediates/res/merged/debug/values-ar_values-ar.arsc.flat",
             "map": [
                 {
@@ -649,6 +617,38 @@
                         "startOffsets": "1918",
                         "endColumns": "100",
                         "endOffsets": "2014"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/abdelazeem/AndroidStudioProjects/Calculato/app/build/intermediates/res/merged/debug/values-en-rGB_values-en-rGB.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/abdelazeem/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/4704f4f45efb6105513ffa6557d013c6/res/values-en-rGB/values-en-rGB.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,209,309,417,501,601,716,793,869,951,1054,1158,1257,1362,1465,1569,1725,1825",
+                        "endColumns": "103,99,107,83,99,114,76,75,81,102,103,98,104,102,103,155,99,81",
+                        "endOffsets": "204,304,412,496,596,711,788,864,946,1049,1153,1252,1357,1460,1564,1720,1820,1902"
+                    }
+                },
+                {
+                    "source": "/home/abdelazeem/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/79e6367a1da0a599ffbf3bae5e97ad1b/res/values-en-rGB/values-en-rGB.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "1907",
+                        "endColumns": "100",
+                        "endOffsets": "2003"
                     }
                 }
             ]
@@ -765,22 +765,6 @@
             ]
         },
         {
-            "outputFile": "/home/abdelazeem/AndroidStudioProjects/Calculato/app/build/intermediates/res/merged/debug/values-v17_values-v17.arsc.flat",
-            "map": [
-                {
-                    "source": "/home/abdelazeem/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/4704f4f45efb6105513ffa6557d013c6/res/values-v17/values-v17.xml",
-                    "from": {
-                        "startLines": "2,5,9,12,15,18,22,26,29,32,35,39,42,46",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,228,456,614,764,936,1164,1406,1577,1751,1920,2193,2393,2597",
-                        "endLines": "4,8,11,14,17,21,25,28,31,34,38,41,45,49",
-                        "endColumns": "12,12,12,12,12,12,12,12,12,12,12,12,12,12",
-                        "endOffsets": "223,451,609,759,931,1159,1401,1572,1746,1915,2188,2388,2592,2921"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "/home/abdelazeem/AndroidStudioProjects/Calculato/app/build/intermediates/res/merged/debug/values-is_values-is.arsc.flat",
             "map": [
                 {
@@ -808,6 +792,22 @@
                         "startOffsets": "1916",
                         "endColumns": "100",
                         "endOffsets": "2012"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/abdelazeem/AndroidStudioProjects/Calculato/app/build/intermediates/res/merged/debug/values-v17_values-v17.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/abdelazeem/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/4704f4f45efb6105513ffa6557d013c6/res/values-v17/values-v17.xml",
+                    "from": {
+                        "startLines": "2,5,9,12,15,18,22,26,29,32,35,39,42,46",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,228,456,614,764,936,1164,1406,1577,1751,1920,2193,2393,2597",
+                        "endLines": "4,8,11,14,17,21,25,28,31,34,38,41,45,49",
+                        "endColumns": "12,12,12,12,12,12,12,12,12,12,12,12,12,12",
+                        "endOffsets": "223,451,609,759,931,1159,1401,1572,1746,1915,2188,2388,2592,2921"
                     }
                 }
             ]

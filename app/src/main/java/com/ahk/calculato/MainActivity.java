@@ -174,6 +174,22 @@ ArrayList<Character>operand;
         buPlus.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+              if (result.equals("+") ||result.equals("-"))
+              {
+                  Toast.makeText(MainActivity.this, "Please, Enter number first!!", Toast.LENGTH_SHORT).show();
+                  return;
+              }
+               if(result.equals("")&& !result_existed)
+               {
+                   txtResult.setGravity(Gravity.LEFT |Gravity.TOP);
+                   just_opened=false;
+                   result_existed=false;
+                   txtResult.setTextSize(35);
+                   result=result+"+";
+                   on_screen=on_screen+"+";
+                   txtResult.setText(on_screen);
+                   return;
+               }
                 if(result_existed)
                 {
                     txtResult.setGravity(Gravity.LEFT |Gravity.TOP);
@@ -201,6 +217,22 @@ ArrayList<Character>operand;
         buMinus.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                if (result.equals("-")||result.equals("+"))
+                {
+                    Toast.makeText(MainActivity.this, "Please, Enter number first!!", Toast.LENGTH_SHORT).show();
+                    return;
+                }
+                if(result.equals("")&& !result_existed)
+                {
+                    txtResult.setGravity(Gravity.LEFT |Gravity.TOP);
+                    just_opened=false;
+                    result_existed=false;
+                    txtResult.setTextSize(35);
+                    result=result+"-";
+                    on_screen=on_screen+"-";
+                    txtResult.setText(on_screen);
+                    return;
+                }
                 if(result_existed)
                 {
                     txtResult.setGravity(Gravity.LEFT |Gravity.TOP);
@@ -227,6 +259,16 @@ ArrayList<Character>operand;
         buMultiply.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                if(result.equals("")&& !result_existed)
+                {
+                    Toast.makeText(MainActivity.this, "Please, Enter number first!!", Toast.LENGTH_SHORT).show();
+                    return;
+                }
+                if(result.equals("+")||result.equals("-"))
+                {
+                    Toast.makeText(MainActivity.this, "Please, Enter number first!!", Toast.LENGTH_SHORT).show();
+                    return;
+                }
                 if(result_existed)
                 {
                     txtResult.setGravity(Gravity.LEFT |Gravity.TOP);
@@ -254,6 +296,16 @@ ArrayList<Character>operand;
         buDivision.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                if(result.equals("") && !result_existed)
+                {
+                    Toast.makeText(MainActivity.this, "Please, Enter number first!!", Toast.LENGTH_SHORT).show();
+                    return;
+                }
+                if(result.equals("+")||result.equals("-"))
+                {
+                    Toast.makeText(MainActivity.this, "Please, Enter number first!!", Toast.LENGTH_SHORT).show();
+                    return;
+                }
                 if(result_existed)
                 {
                     txtResult.setGravity(Gravity.LEFT |Gravity.TOP);
@@ -343,13 +395,26 @@ ArrayList<Character>operand;
 
             }
         });
-        buC=(Button)findViewById(R.id.buC);
-        buC.setOnClickListener(new View.OnClickListener() {
+
+        buCE=(Button)findViewById(R.id.buCE);
+
+
+        buCE.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                if(result_existed)
+                {result_existed=false;}
                 if(!on_screen.equals(""))
                 {
-                    if(on_screen.charAt(on_screen.length()-1)=='+' || on_screen.charAt(on_screen.length()-1)=='-'||on_screen.charAt(on_screen.length()-1)=='×'||on_screen.charAt(on_screen.length()-1)=='÷') {
+
+                    if((on_screen.charAt(on_screen.length()-1)=='+'
+                            || on_screen.charAt(on_screen.length()-1)=='-'
+                            ||on_screen.charAt(on_screen.length()-1)=='×'
+                            ||on_screen.charAt(on_screen.length()-1)=='÷')
+                            &&on_screen.length()!=1
+                            &&(!result.contains("+") && !result.contains("-")))
+                    {
+
                         on_screen = on_screen.substring(0, on_screen.length() - 1);
                         txtResult.setText(on_screen);
                         operand.remove(operand.size()-1);
@@ -370,6 +435,22 @@ ArrayList<Character>operand;
                     txtResult.setText("");
                     return;
                 }
+            }
+        });
+
+        buC=(Button)findViewById(R.id.buC);
+        buC.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                result="";
+                on_screen="";
+                numbers.clear();
+                operand.clear();
+                result_existed=false;
+                just_opened=true;
+                txtResult.setText("");
+
             }
         });
 
@@ -411,6 +492,7 @@ ArrayList<Character>operand;
                 }
             }
         });
+
 
         buMC=(Button)findViewById(R.id.buMC);
         buMC.setOnClickListener(new View.OnClickListener() {
@@ -515,7 +597,7 @@ ArrayList<Character>operand;
                     result = Double.toString(memory);
                     buEqual.performClick();
 
-                }
+                    }
                 else{
                     Toast.makeText(MainActivity.this, "Please, Add any number to the memory first!!", Toast.LENGTH_SHORT).show();
                 }

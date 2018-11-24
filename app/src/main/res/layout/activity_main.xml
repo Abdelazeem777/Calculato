@@ -88,19 +88,19 @@
                 android:textSize="17dp" />
 
             <Button
-                android:id="@+id/buCE"
-                android:layout_width="72dp"
-                android:layout_height="58dp"
-                android:background="@drawable/buttonshape"
-                android:text="CE"
-                android:textSize="17dp" />
-
-            <Button
                 android:id="@+id/buC"
                 android:layout_width="72dp"
                 android:layout_height="58dp"
                 android:background="@drawable/buttonshape"
                 android:text="C"
+                android:textSize="17dp" />
+
+            <Button
+                android:id="@+id/buCE"
+                android:layout_width="72dp"
+                android:layout_height="58dp"
+                android:background="@drawable/buttonshape"
+                android:text="CE"
                 android:textSize="17dp" />
 
             <Button
